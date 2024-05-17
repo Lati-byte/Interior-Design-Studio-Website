@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Helvetica', sans-serif;
+}
+.header{
+    font-family: 'Helvetica', sans-serif;
+    background-color: #3E3E3E;
+    background-image:linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.6)), url( img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+a{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+.navbar{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    font-weight: 200px;
+}
+.navbar img {
+    order: 2;
+    width: 70px;
+    height: 70px;
+}
+.the-para{
+    color: white;
+    padding: 60px;
+    margin-left: 90px;
+}
+.title p{
+    font-size: 150px;
+    font-weight: 4000px;
+}
+.sub-title{
+    font-size: 30px;
+    
+}
+.aboutus{
+    display: flex;
+    background-color: #3E3E3E;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    width: 100%;
+}
+.denze{
+    padding: 60px;
+    border-right: 2px solid white;
+    
+
+}
+.denze h1{
+    font-size: 30px;
+    font-weight: 600px;
+    padding-right: 25px;
+    color: white;
+}
+.denze img {
+    width: 440px;
+    height: 400px;
+    padding-left: 40px;
+}
+.text{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 30px;
+    color: white;
+    padding-bottom: 60px;
+    padding-right: 100px;
+}
+.text span {
+    font-weight: 300;
+    font-size: 120px;
+}
+
+.text p {
+    font-size: 25px;
+    font-weight: 200px;
+}
+
+.slider-container {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease;
+  gap: 18px;
+}
+
+.slider img {
+  width: auto;
+  flex: 0 0 auto;
+  height: 400px;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.prev {
+  left: 0;
+}
+.prev .img {
+    width: 50px;
+    height: 50px;
+}
+
+.next {
+  right: 0;
+} 
+.projects{
+    background-color: #949494;
+    padding: 20px;
+}
+.projects .title{
+    font-weight: 300;
+    font-size: 120px;
+}
+.services-cont{
+    background-color: #3E3E3E;
+    color: white;
+    padding: 20px;
+    width: 100%;
+}
+.services-cont p{
+    font-size:100px ;
+}
+.services-cont ul{
+    font-size: 40px;
+    padding-left: 50px;
+}
+.contactUs{
+    background-image:linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.6)), url(/img/footer2.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.contactUs .span{
+    font-size: 100px;
+    font-weight: 300px;
+    color: #fff;
+    margin-bottom: 0px;
+}
+.contactUs p{
+    font-size: 30px;
+    color: #fff;
+    padding-left: 20px;
+
+}
+.contactUs input[type="text"], .contactUs input[type="email"] {
+    width: 300px;  /* Increase the width */
+    height: 40px;  /* Increase the height */
+    font-size: 16px;  /* Increase the font size */
+    
+}
+
+.contactUs button {
+    width: 100px;  /* Increase the width */
+    height: 45px;  /* Increase the height */
+    font-size: 18px;  /* Increase the font size */
+    color: white;
+    background-color: black;
+    border:solid 1px #fff;
+    margin-left: 20px;
+}
+
+.inputs{
+    padding-left: 20px;
+}
+
+.footer{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img{
+    width: 80px;
+    height: 80px;
+}
+.social-media-links img{
+    width: 50px;
+    height: 50px;
+}
+.social-media-links{
+    justify-content: space-around;
+    display: flex;
+    gap: 20px;
+    
+}
+.contact-info{
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo1{
+        margin-left: 30px; /* Adjust the margin as needed */
+        margin-right: auto;
+        height: 50px;
+    }
+    .navbar {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+    }
+    .navbar a {
+        margin: 10px 0;
+    }
+    .navbar img {
+        margin-bottom: 0px;
+        height: 100px;
+        width: auto;
+    }
+    .the-para {
+        padding: 20px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .title p {
+        font-size: 80px;
+        font-weight: 600;
+    }
+    .sub-title {
+        font-size: 30px;
+    }
+    .aboutus{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .denze {
+        padding: 10px;
+        border: none;
+        border-bottom: 2px solid white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .denze h1 {
+        font-size: 20px;
+        padding-right: 30px;
+
+    }
+    .denze img {
+        width: auto;
+        height: 400px;
+        padding: 0;
+        margin-top: 10px;
+    }
+    .text {
+        font-size: 10px;
+        text-align: center;
+        padding: 20px;
+    }
+    .text span {
+        font-size: 60px;
+        font-weight: 400;
+    }
+    .text p {
+        font-size: 22px;
+    }
+    .slider img {
+        height: 300px;
+        width: auto;
+    }
+    .slider-container{
+        position: relative;
+        max-width: 100%;
+        max-height: 100%;
+        overflow: hidden;
+        height: 300px;
+    }
+    .projects .title {
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: 400;
+    }
+    .projects{
+        height: 420px;
+    }
+    .services-cont p {
+        font-size: 45px;
+        text-align: center;
+    }
+    .services-cont ul {
+        font-size: 30px;
+        padding-left: 0;
+        text-align: center;
+        list-style-type: none;
+    }
+    .contactUs {
+        background-image: none;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+    .contactUs .span {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .contactUs p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .contactUs input[type="text"],
+    .contactUs input[type="email"] {
+        width: 100%;
+        height: 40px;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .contactUs button {
+        width: 100%;
+        height: 45px;
+        font-size: 18px;
+        margin-left: 0;
+    }
+    .inputs {
+        padding-left: 0;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .social-media-links {
+        margin-top: 20px;
+    }
+    .social-media-links img {
+        margin: 0 10px;
+    }
+    .contact-info {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .menu-icon {
+        display: block !important;
+        cursor: pointer;
+    }
+
+    .menu-links {
+        display: none!important;
+        flex-direction: column;
+        background-color: #3E3E3E;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .menu-links a {
+        margin-bottom: 10px;
+    }
+    .contactUs {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url('/img/footer2.jpg');
+        height: 35vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        position: relative; /* Add this */
+    }
+}
+
+
+/* Add this to your existing CSS */
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+.menu-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 100;
+    gap: 50px;
+}
+
+.menu-links a {
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.logo1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    width: 80px;
+}

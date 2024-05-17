@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/Td2k.jpg" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="home" class="header">
+        <div class="navbar">
+            <div class="logo-container">
+                <img src="img/White Logo.png" alt="logo" class="logo1">
+            </div>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <!-- Hamburger Menu Icon -->
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div class="menu-links">
+                <a href="#home">Home</a>
+                <a href="#projects">Projects</a>
+                <a href="#services">Services</a>
+                <a href="#contactUs">Contact Us</a>
+            </div>
+        </div>
+    
+    
+        <div class="the-para">
+            <div class="title">
+              <p>Beauty In 
+               <br>Perfection</p> 
+            </div>
+            <div class="sub-title">
+              <p> In the heart of our design philosophy lies the belief that there is **beauty /n <br>
+                in imperfection**. At [Studio Name], we celebrate the wabi-sabi approach to <br>
+                interior design, finding elegance in the asymmetry, richness in the simplicity, <br>
+                and profound grace in the patina of time. Our spaces are more than just visually <br>
+                appealing; they are a testament to the uniqueness of life itself, where every <br>
+                imperfection tells a story. Let us help you discover the imperfect beauty that<br>
+                makes your space authentically yours.</p> <br>
+
+            
+            </div>
+        </div>
+    </div>
+
+    <div class="aboutus">
+        <div class="denze">
+            <img src="img/denze.png" alt="">
+            <h1>Tshimangadzo Denzhe Ramathuba</h1>
+        </div>
+        <div class="text">
+            <span>About Us</span>
+            <p>In the heart of our design philosophy lies the belief that <br>
+               there is **beauty in imperfection**. At [Studio Name], we <br>
+               celebrate the wabi-sabi approach to interior design, finding<br>
+               elegance in the asymmetry, richness in the simplicity, and <br>
+               profound grace in the patina of time. Our spaces are more <br>
+               than just visually appealing; they are a testament to the <br>
+               uniqueness of life itself, where every imperfection tells <br>
+               a story. Let us help you discover the imperfect beauty that <br>
+               makes your space authentically yours. <br>
+            </p>
+        </div>
+    </div>
+
+    <div id="projects" class="projects">
+        <div class="title">Previous Work</div>
+        <div class="slider-container">
+            <div class="slider">
+              <img src="img/slide1.jpeg" alt="Image 1">
+              <img src="img/slide2.jpeg" alt="Image 2">
+              <img src="img/slide3.jpeg" alt="Image 3">
+              <img src="img/slide4.jpeg" alt="Image 4">
+              <img src="img/slide5.jpeg" alt="Image 5">
+              <img src="img/slide6.jpeg" alt="Image 6">
+              <img src="img/slide7.jpeg" alt="Image 1">
+              <img src="img/slide8.jpeg" alt="Image 2">
+              <img src="img/slide9.jpeg" alt="Image 3">
+              <img src="img/moodboard1.jpg" alt="Image 4">
+              <img src="img/moodboard2.jpg" alt="Image 5">
+              <img src="img/moodboard3.jpg" alt="Image 6">
+            </div>
+            <button class="prev" onclick="moveSlider(-1)"><img src="img/leftw.png" alt="" style="width: 20px; height: 20px;"></button>
+            <button class="next" onclick="moveSlider(1)"><img src="img/rightw.png" alt="" style="width: 20px; height: 20px;"></button>
+          </div>   
+    </div>
+
+    <div id="services" class="services-cont">
+        <div class="part1">
+           <p>Services:</p> 
+           <ul>
+            <li>Site Visit</li>
+            <li>Design Consultation/Idea Session</li>
+            <li>Shopping Trip/s</li>
+            <li>Designs For Renovation</li>
+            <li>Special Event Decoration</li>
+            <li>Project Management</li>
+            <li>Hourly Service</li>
+           </ul>
+        </div>
+        <div class="part2">
+            <p>Full Interior Design Services:</p> 
+            <ul>
+             <li>Hardware, Plumbing & Appliance Specification</li>
+             <li>Finish Selection & Specification</li>
+             <li>Color & Paint Selection</li>
+             <li>Space planning & Furniture layout</li>
+             <li>Interior Detailing</li>
+             <li>Exterior Finish Selection</li>
+             <li>Mood Board</li>
+             <li>3D Revit drawings</li>
+             <li>3D Realistic Preview Shots</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="contactUs" class="contactUs">
+        <form action="https://formspree.io/f/mgegqkoz" method="POST">
+            <div class="span">Order A Free Consultation</div>
+            <p>Leave your details, and we will Contact you</p>
+            <div class="inputs">
+                <input type="text" id="name" name="name" placeholder="Name">
+                <input type="text" id="phone" name="phone" placeholder="Phone"> <br>
+                <input type="email" id="email" name="email" placeholder="Email"> 
+            </div>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    
+
+    <div class="footer">
+        <div class="logo"> <img src="img/White Logo.png" alt="logo"></div>
+
+        <div class="contact-info">
+            Contact us: <br>
+            +27 60 826 5060 <br>
+            td2stacks.interiors@outlook.com
+        </div>
+
+        <div class="social-media-links">
+            <a href="https://wa.me/27608265060" target="_blank">
+                <img src="img/Whatsapp White.png" alt="Whatsapp">
+            </a>
+            <a href="https://www.instagram.com/td2stacks.interiors/" target="_blank">
+                <img src="img/Insta white.png" alt="Instagram">
+            </a>
+            <a href="https://www.linkedin.com" target="_blank">
+                <img src="img/Linkedin White.png" alt="LinkedIn">
+            </a>
+        </div>
+        
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
