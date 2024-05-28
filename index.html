@@ -10,9 +10,6 @@
 <body>
     <div id="home" class="header">
         <div class="navbar">
-            <div class="logo-container">
-                <img src="img/White Logo.png" alt="logo" class="logo1">
-            </div>
             <div class="menu-icon" onclick="toggleMenu()">
                 <!-- Hamburger Menu Icon -->
                 <div class="bar"></div>
@@ -22,6 +19,9 @@
             <div class="menu-links">
                 <a href="#home">Home</a>
                 <a href="#projects">Projects</a>
+                <div class="logo-container">
+                    <img src="img/White Logo.png" alt="logo" class="logo1">
+                </div>
                 <a href="#services">Services</a>
                 <a href="#contactUs">Contact Us</a>
             </div>
@@ -119,16 +119,18 @@
     </div>
 
     <div id="contactUs" class="contactUs">
-        <form action="https://formspree.io/f/mgegqkoz" method="POST">
+        <form action="https://formspree.io/f/mgegqkoz" method="POST" onsubmit="return validateForm()">
             <div class="span">Order A Free Consultation</div>
             <p>Leave your details, and we will Contact you</p>
             <div class="inputs">
-                <input type="text" id="name" name="name" placeholder="Name">
-                <input type="text" id="phone" name="phone" placeholder="Phone"> <br>
-                <input type="email" id="email" name="email" placeholder="Email"> 
+                <input type="text" id="name" name="name" placeholder="Name" required>
+                <input type="text" id="phone" name="phone" placeholder="Phone" required > <br>
+                <input type="email" id="email" name="email" placeholder="Email" required> 
             </div>
             <br>
-            <button type="submit">Submit</button>
+            <div class="button-container">
+                <button type="submit">Submit</button>
+            </div>
         </form>
     </div>
     

@@ -18,22 +18,44 @@ a{
     color: white;
     text-decoration: none;
     list-style-type: none;
+    font-size: 21px;
+
+}
+.logo-container {
+    margin: 0 auto;
+    text-align: center;
 }
 .navbar{
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     display: flex;
-    padding: 20px;
+    padding: 30px;
     justify-content: space-between;
     width: 80%;
     align-items: center;
     margin: auto;
     font-weight: 200px;
+    gap: 20px;
 }
+.menu-links {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: space-between;
+    text-align: center;
+}
+.menu-links a {
+    color: white;
+    padding: 0 20px;
+    text-decoration: none;
+    flex: 1;
+    text-align: center;
+}
+
 .navbar img {
     order: 2;
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
 }
 .the-para{
     color: white;
@@ -41,8 +63,8 @@ a{
     margin-left: 90px;
 }
 .title p{
-    font-size: 150px;
-    font-weight: 4000px;
+    font-size: 120px;
+    font-weight: 300px;
 }
 .sub-title{
     font-size: 30px;
@@ -418,4 +440,56 @@ a{
     margin-right: auto;
     width: 80px;
     width: 80px;
+}
+
+/*Form Styling*/
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form .span {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+}
+
+form p {
+    text-align: center;
+}
+
+.inputs {
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.inputs input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+.button-container {
+    text-align: center;
+}
+button:hover {
+    background-color: #555;
 }
