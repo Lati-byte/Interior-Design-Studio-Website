@@ -10,7 +10,7 @@
 .header {
     font-family: 'Helvetica', sans-serif;
     background-color: #3E3E3E;
-    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.6)), url(img/header.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url(img/header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -37,7 +37,8 @@ a {
     width: 80%;
     align-items: center;
     margin: auto;
-    gap: 2rem;
+    gap: 4rem;
+    padding-right: 50px;
 }
 
 .menu-links {
@@ -46,6 +47,7 @@ a {
     flex: 1;
     justify-content: space-between;
     text-align: center;
+    padding-right: 70px;
 }
 
 .menu-links a {
@@ -63,17 +65,24 @@ a {
 .the-para {
     color: white;
     padding: 6rem;
-    margin-left: 9rem;
+    margin-left: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .title p {
-    font-size: 12rem;
+    font-size: 19rem;
     font-weight: 300;
+    font-family: "Imperial Script", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .sub-title {
     font-size: 3rem;
     max-width: 700px;
+    text-align: center;
 }
 
 .aboutus {
@@ -137,7 +146,8 @@ a {
     height: 40rem;
 }
 
-.prev, .next {
+.prev,
+.next {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -183,7 +193,7 @@ a {
 }
 
 .contactUs {
-    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.6)), url(img/footer2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url(img/footer2.jpg);
     height: 50vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -203,7 +213,8 @@ a {
     padding-left: 2rem;
 }
 
-.contactUs input[type="text"], .contactUs input[type="email"] {
+.contactUs input[type="text"],
+.contactUs input[type="email"] {
     width: 30rem;
     height: 4rem;
     font-size: 1.6rem;
@@ -257,11 +268,12 @@ a {
     .title p {
         font-size: 10rem;
     }
-    .sub-title{
+
+    .sub-title {
         text-align: left;
         padding-left: 15px;
     }
-    
+
     .text span {
         font-size: 10rem;
     }
@@ -278,8 +290,9 @@ a {
     .contactUs .span {
         font-size: 8rem;
     }
+
     .contactUs {
-        background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.6)), url(img/footer2.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url(img/footer2.jpg);
         height: 50vh;
         background-repeat: no-repeat;
         background-size: cover;
@@ -299,6 +312,7 @@ a {
     .text span {
         font-size: 8rem;
     }
+
     .text p {
         font-weight: 400;
     }
@@ -322,8 +336,9 @@ a {
     .contact-info {
         font-size: 2rem;
     }
+
     .contactUs {
-        background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.6)), url(img/footer2.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url(img/footer2.jpg);
         height: 50vh;
         background-repeat: no-repeat;
         background-size: cover;
@@ -335,20 +350,25 @@ a {
     .desktop-logo {
         display: none;
     }
+
     .mobile-logo {
-        display: block!important;
-        text-align: center; /* Center the logo */
-        margin-bottom: 0rem; /* Add some bottom margin for spacing */
+        display: block !important;
+        text-align: center;
+        /* Center the logo */
+        margin-bottom: 0rem;
+        /* Add some bottom margin for spacing */
     }
+
     .mobile-logo img {
         width: auto;
         height: 80px;
     }
+
     .navbar {
         flex-direction: column;
     }
 
-    
+
 
     .the-para {
         padding: 2rem;
@@ -514,13 +534,15 @@ a {
     .menu-links a {
         margin-bottom: 1rem;
     }
+
     .contactUs {
         background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url('/img/footer2.jpg');
         height: 60vh;
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
-        position: relative; /* Add this */
+        position: relative;
+        /* Add this */
     }
 }
 
@@ -528,16 +550,18 @@ a {
     .title p {
         font-size: 8rem;
     }
-.sub-title{
-    text-align: left;
-    font-size: 2.8rem;
-    padding-left: 25px;
-}
+
+    .sub-title {
+        text-align: left;
+        font-size: 2.8rem;
+        padding-left: 25px;
+    }
+
     .text span {
         font-size: 4rem;
         text-align: left;
     }
-    
+
     .denze p {
         font-size: 2rem;
     }
@@ -561,19 +585,22 @@ a {
     .contact-info {
         font-size: 1.8rem;
     }
+
     .contactUs {
         background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url('/img/footer2.jpg');
         height: 60vh;
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
-        position: relative; /* Add this */
+        position: relative;
+        /* Add this */
     }
 }
 
 .mobile-logo {
     display: none;
 }
+
 /* Additional Styling for Form */
 form {
     display: flex;
